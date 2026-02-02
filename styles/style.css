@@ -146,6 +146,10 @@ input[type="text"] {
   text-decoration: underline;
 }
 
+.search-form__label:has(.search-form__checkbox):hover {
+  cursor: pointer;
+}
+
 .button {
   background-color: transparent;
   border: 1px solid #fff;
@@ -157,6 +161,7 @@ input[type="text"] {
 
 .button:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .button:active {
@@ -225,6 +230,7 @@ input[type="text"] {
 
 .content__card-link:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .content__card-link:focus {
