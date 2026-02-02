@@ -137,6 +137,39 @@ input[type="text"] {
   text-decoration: underline;
 }
 
+.button {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  font-weight: 700;
+  font-size: 18px;
+  font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+.button:hover {
+  text-decoration: underline;
+}
+
+.button:active {
+  background-color: #545050;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:focus-visible {
+  outline: 1px solid #fff;
+  outline-offset: 1px;
+}
+
+.search-form__submit-button {
+  width: 194px;
+  align-self: end;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
 .title {
   font-family: 'Oswald', sans-serif;
   font-size: 75px;
@@ -209,6 +242,12 @@ input[type="text"] {
   min-width: 194px;
   object-fit: cover;
   object-position: center;
+}
+
+.more-button {
+  width: 100%;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 /* Кастомный скроллбар */
